@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Task_Manager Pro</h1>
+            <h4>You Personal Task Management Solution</h4>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inputDetail">
+            <input type="text" placeholder="Enter Your Task" class="inputDetail-i">
+            <button class="inputDetail-b">Add Task</button>
+        </section>
+        <section class="showDetail">
+            <div class="filter-container">
+                <button class="filter1" data-filter="all">All</button>
+                <button class="filter2" data-filter="complete">Complete</button>
+                <button class="filter3" data-filter="pending">Pending</button>
+            </div>
+            <ul class="resultShow">
+
+            </ul>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
